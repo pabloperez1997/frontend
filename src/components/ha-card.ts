@@ -19,7 +19,7 @@ class HaCard extends LitElement {
           --ha-card-background,
           var(--paper-card-background-color, white)
         );
-        border-radius: var(--ha-card-border-radius, 2px);
+        border-radius: var(--ha-card-border-radius, 15px);
         box-shadow: var(
           --ha-card-box-shadow,
           0 2px 2px 0 rgba(0, 0, 0, 0.14),

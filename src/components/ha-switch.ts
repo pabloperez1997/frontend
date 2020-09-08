@@ -85,11 +85,11 @@ export class HaSwitch extends MwcSwitch {
         }
         .mdc-switch:not(.mdc-switch--checked) .mdc-switch__thumb {
           background-color: var(--switch-unchecked-button-color);
-          border-color: var(--switch-unchecked-button-color);
+          border-color: #ff0000;
         }
         .mdc-switch:not(.mdc-switch--checked) .mdc-switch__track {
           background-color: var(--switch-unchecked-track-color);
-          border-color: var(--switch-unchecked-track-color);
+          border-color: #ff0000;
         }
         :host(.slotted) .mdc-switch {
           margin-right: 24px;

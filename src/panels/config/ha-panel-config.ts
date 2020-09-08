@@ -19,7 +19,7 @@ declare global {
 
 export const configSections: { [name: string]: PageNavigation[] } = {
   integrations: [
-    {
+    /*  {
       component: "integrations",
       path: "/config/integrations",
       translationKey: "ui.panel.config.integrations.caption",
@@ -32,7 +32,7 @@ export const configSections: { [name: string]: PageNavigation[] } = {
       translationKey: "ui.panel.config.devices.caption",
       icon: "hass:devices",
       core: true,
-    },
+    },*/
     {
       component: "entities",
       path: "/config/entities",
@@ -40,13 +40,13 @@ export const configSections: { [name: string]: PageNavigation[] } = {
       icon: "hass:shape",
       core: true,
     },
-    {
+    /*  {
       component: "areas",
       path: "/config/areas",
       translationKey: "ui.panel.config.areas.caption",
       icon: "hass:sofa",
       core: true,
-    },
+    },*/
   ],
   automation: [
     {
@@ -55,7 +55,7 @@ export const configSections: { [name: string]: PageNavigation[] } = {
       translationKey: "ui.panel.config.automation.caption",
       icon: "hass:robot",
     },
-    {
+    /*{
       component: "scene",
       path: "/config/scene",
       translationKey: "ui.panel.config.scene.caption",
@@ -73,8 +73,8 @@ export const configSections: { [name: string]: PageNavigation[] } = {
       translationKey: "ui.panel.config.helpers.caption",
       icon: "hass:tools",
       core: true,
-    },
-  ],
+    },*/
+  ] /*
   lovelace: [
     {
       component: "lovelace",
@@ -82,9 +82,9 @@ export const configSections: { [name: string]: PageNavigation[] } = {
       translationKey: "ui.panel.config.lovelace.caption",
       icon: "hass:view-dashboard",
     },
-  ],
+  ],*/,
   persons: [
-    {
+    /*{
       component: "person",
       path: "/config/person",
       translationKey: "ui.panel.config.person.caption",
@@ -95,7 +95,7 @@ export const configSections: { [name: string]: PageNavigation[] } = {
       path: "/config/zone",
       translationKey: "ui.panel.config.zone.caption",
       icon: "hass:map-marker-radius",
-    },
+    },*/
     {
       component: "users",
       path: "/config/users",
@@ -118,7 +118,7 @@ export const configSections: { [name: string]: PageNavigation[] } = {
       translationKey: "ui.panel.config.server_control.caption",
       icon: "hass:server",
       core: true,
-    },
+    } /*
     {
       component: "customize",
       path: "/config/customize",
@@ -126,10 +126,10 @@ export const configSections: { [name: string]: PageNavigation[] } = {
       icon: "hass:pencil",
       core: true,
       advancedOnly: true,
-    },
+    },*/,
   ],
   other: [
-    {
+    /*{
       component: "zha",
       path: "/config/zha",
       translationKey: "component.zha.title",
@@ -140,7 +140,7 @@ export const configSections: { [name: string]: PageNavigation[] } = {
       path: "/config/zwave",
       translationKey: "component.zwave.title",
       icon: "hass:z-wave",
-    },
+    },*/
   ],
 };
 

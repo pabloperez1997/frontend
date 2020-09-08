@@ -12,7 +12,9 @@ export class HaConfigSection extends LitElement {
           narrow: !this.isWide,
         })}"
       >
-        <div class="header"><slot name="header"></slot></div>
+        <!--<div class="header"><slot name="header"></slot></div>-->
+        <div class="header">Configuración</div>
+
         <div
           class="together layout ${classMap({
             narrow: !this.isWide,
@@ -20,7 +22,11 @@ export class HaConfigSection extends LitElement {
             horizontal: this.isWide,
           })}"
         >
-          <div class="intro"><slot name="introduction"></slot></div>
+          <!--<div class="intro"><slot name="introduction"></slot></div>-->
+          <div class="intro">
+            Aquí podrás configurar Automatizaciones, Usuarios y controlar tu
+            Servidor
+          </div>
           <div class="panel flex-auto"><slot></slot></div>
         </div>
       </div>

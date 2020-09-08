@@ -2357,7 +2357,7 @@
             },
             "page-authorize": {
                 "abort_intro": "Inicio de sesión cancelado",
-                "authorizing_client": "Estás a punto de dar acceso a {clientId} a tu instancia de Home Assistant.",
+                "authorizing_client": "Estás a punto de dar acceso a {clientId} a tu servidor de Control.",
                 "form": {
                     "error": "Error: {error}",
                     "next": "Siguiente",
@@ -2451,7 +2451,7 @@
                     "working": "Por favor, espere"
                 },
                 "initializing": "Inicializando",
-                "logging_in_with": "Iniciando sesión con **{authProviderName}**.",
+                "logging_in_with": "Ingrese sus datos para autenticarse.",
                 "pick_auth_provider": "O inicia sesión con"
             },
             "page-demo": {

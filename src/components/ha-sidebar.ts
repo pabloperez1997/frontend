@@ -162,7 +162,7 @@ class HaSidebar extends LitElement {
               ></ha-icon-button>
             `
           : ""}
-        <span class="title">Home Assistant</span>
+        <span class="title">La Postergada</span>
       </div>
       <paper-listbox
         attr-for-selected="data-panel"
@@ -444,6 +444,8 @@ class HaSidebar extends LitElement {
   }
 
   private _renderPanel(urlPath, icon, title) {
+    if (title === "Herramientas para desarrolladores") return;
+
     return html`
       <a
         aria-role="option"
@@ -553,7 +555,7 @@ class HaSidebar extends LitElement {
         margin: 4px 8px;
         padding-left: 12px;
         border-radius: 4px;
-        --paper-item-min-height: 40px;
+        --paper-item-min-height: 50px;
         width: 48px;
       }
       :host([expanded]) paper-icon-item {
